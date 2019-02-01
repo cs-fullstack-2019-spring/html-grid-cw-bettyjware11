@@ -11,10 +11,12 @@ body {
 
 header  {
 
-    background-color: grey;
+    height: 100px;
 }
 
 .container > div {
+    font: caption;
+    background-color: grey;
     display: grid;
     grid-row-gap: 10px;
     border-radius: 5px;
@@ -37,7 +39,9 @@ header  {
 
 aside  {
     float: right;
+    height: 50px;
     width: 30%;
+
 
     background-color: grey;
 
@@ -52,6 +56,5 @@ aside  {
 .ITEM
 {
     color: white;
-    background: blue;
+    background: blue;}
 
-}
